@@ -6,6 +6,7 @@ root: intro-jupyter-template
 chapters:
 - file: jupyter-notebook-template-copernicus
 #   title: Title to appear on the left hand pane (Defaults to the Title in the notebook)
+- file: explore-different-wind-technologies
 # - file: example-notebook
 #   title: Example notebook
 
