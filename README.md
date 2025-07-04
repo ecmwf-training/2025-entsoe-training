@@ -1,8 +1,11 @@
+# 2025 ENTSO-E training
+
+Jupyter notebook based learning resources used for a training given to ENTSO-E by the C3S energy service on use of the PECDv4.2 dataset available on the Climate Data Store
+
+
 # ECMWF Jupyterbook learning resource template
 
-This repository is a GitHub **template** to facilitate development and maintenance of ECMWF Jupyterbooks used for learning, training and other documentation. It contains example notebooks which provide **best practices** for producing publication quality notebooks.
-
-This template has been designed to be used as a sub-module for a parent repository. Therefore the default branch for this repository is **develop**, and this branch is used to deploy the review/development version of the JupyterBook. The **main** branch is reserved for published content and will be maintained by ECMWF.
+This repository is created from the JupyterBook template repository. Below are the instructions for developing the JupyterBook. When the deliverable is complete, thes instructions can be removed, and this README updated to something that describes the material herein.
 
 The repository includes github-actions which will automatically build a develop version of the Jupyter Book that can be used for review purposes.
 
