@@ -1,8 +1,19 @@
+name: training_notebooks
+channels:
+  - conda-forge
 dependencies:
-  - cdsapi
+  - python=3.12
   - numpy
-  - netCDF4
-  - xarray
+  - pandas
+  - geopandas
   - matplotlib
+  - xarray
+  - netcdf4
   - cartopy
-  - jupyterlab-myst
+  - jupyterlab
+  - myst-parser
+  - nbconvert
+  - jupyter
+  - cdsapi
+  - black-jupyter
+  - nbqa
