@@ -3,19 +3,29 @@
 
 format: jb-book
 root: intro-jupyter-template
-chapters:
-- file: jupyter-notebook-template-copernicus
-#   title: Title to appear on the left hand pane (Defaults to the Title in the notebook)
-- file: download-data-from-cds
-- file: download-subsample-of-data-from-cds
-- file: explore-csv-data
-- file: explore-netcdf-data
-- file: explore-different-wind-technologies
-- file: explore-different-pv-technologies
-- file: climate-change-impacts
-- file: custom-spatial-aggregation
-- file: overplanting
-# - file: example-notebook
-#   title: Example notebook
 
+parts:
+  - caption: Accessing Data
+    chapters:
+    - file: download-data-from-cds
+      # title: Downloading PECDv4.2 data from the CDS via cdsapi
+    - file: explore-csv-data
+      # title: 
+    - file: explore-netcdf-data
+      # title: 
 
+  - caption: Part II - Exploring Technologies
+    chapters:
+    - file: explore-different-wind-technologies
+      # title: 
+    - file: explore-different-pv-technologies
+      # title: 
+
+  - caption: Part III - Advanced Applications
+    chapters:
+    - file: climate-change-impacts
+      # title: 
+    - file: custom-spatial-aggregation
+      # title: 
+    - file: overplanting
+      # title: 
