@@ -5,7 +5,7 @@ format: jb-book
 root: intro-jupyter-template
 
 parts:
-  - caption: Accessing Data
+  - caption: Part I - Accessing Data
     chapters:
     - file: download-data-from-cds
       # title: Downloading PECDv4.2 data from the CDS via cdsapi
