@@ -17,3 +17,4 @@ dependencies:
   - cdsapi
   - black-jupyter
   - nbqa
+  - dask
